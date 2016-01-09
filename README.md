@@ -1,3 +1,3 @@
-## RedBearLab UART
+## RedBearLab and bluno sketch
 
 For debug purposes
