@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.megster.ble.redbear.chat" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>RedBear Chat</name>
+    <description>
+        A sample app from a phone to RedBear Labs BLE hardware.
+    </description>
+    <author href="http://github.com/don">
+        Don Coleman
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <gap:plugin name="cordova-plugin-ble-central" source="npm" />
+    <access origin="*" />
+
+<!-- Enable requests to content: URLs -->
+	<access origin="content:///*" />
+
+	<!-- Allow links to web pages to open in a browser -->
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+
+	<!-- The above is equivalent to these three declarations -->
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="data:*" />
+    
+</widget>
